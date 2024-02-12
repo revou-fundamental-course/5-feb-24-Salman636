@@ -27,7 +27,6 @@ body {
 
 .body-card {
     background-color: gray;
-    width: 450px;
     max-width: 500px;
     padding: 8px;
     border-radius: 8px;
@@ -46,7 +45,7 @@ body {
 }
 
 .form-input textarea {
-    width: 435px;
+    width: 100%;
     box-shadow: 1px 1px 1px black;
 }
 
