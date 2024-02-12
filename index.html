@@ -9,50 +9,64 @@
 </head>
 
 <body>
-    <h1 class="judul">Kalkulator Suhu Sederhana</h1>
     <div class="main">
-        <div class="calculator">
-            <form action="">
-                <p>
-                    Masukkan suhu derajat Celcius (&#8451;) ke kotak dibawah lalu, klik
-                    tombol konversi untuk mendapatkan hasil konversi dalam bentuk
-                    Farenheit (&#8457;).
-                </p>
+        <h1 class="title">Kalkulator Suhu Sederhana</h1>
 
-                <label for="num1">Celcius (&#8451;)</label>
-                <textarea  name="num1" id="num1" cols="50" rows="3"></textarea>
+        <div class="body-card">
+            <div class="calculator">
+                <form action="">
+                    <p class="desc">
+                        Masukkan suhu derajat Celcius (&#8451;) ke kotak dibawah lalu,
+                        klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk
+                        Farenheit (&#8457;).
+                    </p>
 
-                <button type="button" onclick="convert()">Konversi</button>
-                <button type="button" onclick="reset()">Reset</button>
-                <button type="button" onclick="reverse()">Reverse</button>
+                    <div class="form-input">
+                        <label for="num1">Celcius (&#8451;)</label>
+                        <textarea name="num1" id="num1" cols="50" rows="3"></textarea>
 
-                <label for="result">Farenheit (&#8457;)</label>
-                <textarea  name="result" id="result" cols="50" rows="3"></textarea>
+                        <div class="group-button">
+                            <button type="button" onclick="convert()">Konversi</button>
+                            <button type="button" onclick="reset()">Reset</button>
+                            <button type="button" onclick="reverse()">Reverse</button>
+                        </div>
+                    </div>
 
-                <label for="cara">Cara kalkulasi:</label>
-                <textarea  name="cara" id="cara" cols="50" rows="3"></textarea>
-            </form>
-        </div>
+                    <div class="form-input">
+                        <label for="result">Farenheit (&#8457;)</label>
+                        <textarea name="result" id="result" cols="50" rows="3"></textarea>
+                    </div>
 
-        <div class="info">
-            <h4>Cara konversi Celcius (&#8451;) ke Farenheit (&#8457;)</h4>
-            <hr />
-            <p>
-                Suhu <i>S</i> dalam derajat Farenheit (&#8457;) sama dengan suhu <i>S</i> dalam derajat 
-                Celcius (&#8451;) kali 9/5 tambah 32.
-            </p>
-            <p>
-                <i>S</i><sub>(&#8457;)</sub>=(<i>S</i><sub>(&#8451;)</sub> &#10005; 9/5) +32
-            </p>
-            <p>
-                atau
-            </p>
-            <p>
-                <i>S</i><sub>(&#8457;)</sub>=(<i>S</i><sub>(&#8451;)</sub> &#10005; 1.8) +32
-            </p>
+                    <div class="form-input">
+                        <label for="cara">Cara kalkulasi:</label>
+                        <textarea name="cara" id="cara" cols="50" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="info">
+                <h4>Cara konversi Celcius (&#8451;) ke Farenheit (&#8457;)</h4>
+                <hr />
+                <div class="desc">
+                    <p>
+                        Suhu <i>S</i> dalam derajat Farenheit (&#8457;) sama dengan suhu <i>S</i> dalam derajat
+                        Celcius (&#8451;) kali 9/5 tambah 32.
+                    </p>
+                    <p>
+                        <i>S</i><sub>(&#8457;)</sub>=(<i>S</i><sub>(&#8451;)</sub> &#10005; 9/5) +32
+                    </p>
+                    <p>
+                        atau
+                    </p>
+                    <p>
+                        <i>S</i><sub>(&#8457;)</sub>=(<i>S</i><sub>(&#8451;)</sub> &#10005; 1.8) +32
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+
     <script src="./js/script.js"></script>
 </body>
-    
+
 </html>

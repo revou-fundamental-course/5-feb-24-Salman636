@@ -1,61 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+    
 body {
     background-color: #212121;
+    min-height: 100vh;
 }
 
-.judul {
+.title {
     text-align: center;
     color: whitesmoke;
     font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 16px;
 }
 
 .main {
-    width: 455px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: auto;
-    font: arial, 12px ;
-    background-color: hsl(0, 0%, 75%);
+    max-width: 500px;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 2rem auto 2rem auto;
 }
 
-
-p, label, textarea {
-    display: block;
+.body-card {
+    background-color: gray;
+    width: 450px;
+    max-width: 500px;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 2rem auto 2rem auto;
+    font: arial, 12px;
 }
 
-button {
-    margin: 5px;
-    background-color: #212121;
-    width: 125px;
-    height: 25px;
-    color: whitesmoke;
+.desc {
+    margin-bottom: 16px;
 }
 
-button:hover{
-    width: 130px;
-    height: 27px;
-    box-shadow: 0 2px 5px black;
+.form-input {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    width: 100%;
 }
 
-textarea {
-    margin-top: 4px;
+.form-input textarea {
+    width: 435px;
+    box-shadow: 1px 1px 1px black;
 }
 
-.info p {
-    margin: 0 15px;
+.group-button {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    main {
-        margin: auto;
-        height: 100px;
-    }
+.group-button button {
+    width: 40%;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(218, 214, 214);
+    border: none;
+    background-color: rgb(83, 81, 81);
+    border-radius: 4px;
 }
 
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 1px 4px black;
+}
 
-@media only screen and (min-width: 768px) {
-    main {
-        margin: auto;
-        width: 50%;
-        height: 300px;
-    }
+.info {
+    margin-top: 16px;
+}
+
+.info .desc{
+    padding-top: 8px;
+    border-radius: 4px;
+    margin-top: 8px;
 }

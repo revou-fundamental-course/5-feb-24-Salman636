@@ -1,14 +1,13 @@
-Kalkulator Suhu
+# Kalkulator Suhu Sederhana
 Kalkulator yang mengubah dari suhu dengan satuan Celcius menjadi Farenheit, dan sebaliknya
 
-Fitur
+## Fitur
 Menghitung nilai Celcius ke Farenheit
 Menghitung nilai Farenheit ke Celcius
 Memberikan cara perhitungan pengubahan suhu
 
-kalkulator ini menggunakan beberapa teknologi:
-
-HTML
-CSS
-JavaScript
-Visual Studio Code
+### Kalkulator ini menggunakan beberapa teknologi:
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
