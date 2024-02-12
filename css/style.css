@@ -1,5 +1,12 @@
+body {
+    background-color: #212121;
+}
+
 .judul {
-text-align: center;}
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+}
 
 .main {
     width: 455px;
@@ -17,7 +24,7 @@ p, label, textarea {
 
 button {
     margin: 5px;
-    background-color: gray;
+    background-color: #212121;
     width: 125px;
     height: 25px;
     color: whitesmoke;
