@@ -7,7 +7,7 @@ Menghitung nilai Farenheit ke Celcius
 Memberikan cara perhitungan pengubahan suhu
 
 ### Kalkulator ini menggunakan beberapa teknologi:
-HTML
-CSS
-JavaScript
-Visual Studio Code
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
